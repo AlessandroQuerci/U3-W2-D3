@@ -1,5 +1,12 @@
-@mixin btnSection($bg-button) {
-  width: 20px;
-  height: 20px;
+@mixin btnSection($bg-button, $bf-color, $bb-color, $bs-color, $bf-size, $bt-width) {
+  width: $bt-width;
+  font-size: $bf-size;
+  border: solid 2px;
+  border-color: $bb-color;
+  border-radius: 20px;
+  color: $bf-color;
+  padding-inline: 2.5rem;
+  padding-block: 1.5rem;
   background-color: $bg-button;
+  box-shadow: 5px 5px $bs-color;
 }

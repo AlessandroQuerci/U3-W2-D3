@@ -15,6 +15,18 @@ $sizes: (
     &-b {
       padding-block: $value;
     }
+    &-l {
+      padding-left: $value;
+    }
+    &-r {
+      padding-right: $value;
+    }
+    &-tp {
+      padding-top: $value;
+    }
+    &-bt {
+      padding-bottom: $value;
+    }
   }
 }
 
@@ -26,6 +38,18 @@ $sizes: (
     }
     &-b {
       margin-block: $value;
+    }
+    &-l {
+      margin-left: $value;
+    }
+    &-r {
+      margin-right: $value;
+    }
+    &-tp {
+      margin-top: $value;
+    }
+    &-bt {
+      margin-bottom: $value;
     }
   }
 }
