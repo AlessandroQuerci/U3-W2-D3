@@ -1,0 +1,17 @@
+@import "./partials/animazioni";
+@import "./partials/bottoni";
+@import "./partials/colori";
+@import "./partials/font";
+@import "./partials/mixins-generici";
+@import "./partials/spaziature";
+@import "./partials/reset";
+
+.btnSec {
+  @include btnSection(white);
+}
+.btnSec2 {
+  @include btnSection(yellow);
+}
+.btnSec3 {
+  @include btnSection(green);
+}
